@@ -1,0 +1,25 @@
+# basic compiler, etc.
+build-essential
+packaging-dev
+mpi-default-bin
+mpi-default-dev
+# VCS
+git
+git-svn
+git-cvs
+cvs
+subversion
+subversion-tools
+corkscrew
+patch
+# terminal utility
+tmux
+screen
+# ruby
+ruby-full
+ruby-dev
+# shell
+zsh
+tcsh
+ksh
+mksh

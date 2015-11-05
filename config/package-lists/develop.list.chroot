@@ -8,10 +8,14 @@ git
 git-svn
 git-cvs
 cvs
+cvsps
+cvsutils
 subversion
 subversion-tools
+mercurial
 corkscrew
 patch
+stow
 # terminal utility
 tmux
 screen

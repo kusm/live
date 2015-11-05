@@ -1,1 +1,9 @@
 texlive-full
+vim-latexsuite
+texworks
+auctex
+ghostscript-x
+xdvik-ja
+latex-beamer
+latexmk
+latex-mk

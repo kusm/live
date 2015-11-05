@@ -3,3 +3,5 @@ openssh-client
 openssh-server
 openssh-blacklist
 openssh-blacklist-extra
+nfs-common
+rpcbind

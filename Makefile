@@ -5,6 +5,7 @@ usage:
 
 config: clean
 	sudo lb config
+	@[ ! -d update-environment ] || ( cd update-environment && make )
 build: config
 	sudo lb build
 
@@ -20,6 +21,7 @@ build-usb: config-usb
 clean:
 	sudo lb clean
 	sudo rm -f *.log
+	@[ ! -d update-environment ] || ( cd update-environment && make clean )
 
 distclean: clean
 	sudo lb clean --purge --all

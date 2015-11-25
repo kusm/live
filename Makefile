@@ -1,28 +1,17 @@
 all: usage
 
 usage:
-	@echo "make config-iso|config-usb|build|build-iso|build-usb|clean|distclean"
+	@echo "make config|build|clean|distclean"
 
 config: clean
 	sudo lb config
 	@[ ! -d update-environment ] || ( cd update-environment && make )
 build: config
 	sudo lb build
-
-config-iso: clean
-	lb config --binary-images iso
-build-iso: config-iso
-	sudo lb build
-config-usb: clean
-	lb config --binary-images hdd
-build-usb: config-usb
-	sudo lb build
-
 clean:
 	sudo lb clean
 	sudo rm -f *.log
 	@[ ! -d update-environment ] || ( cd update-environment && make clean )
-
 distclean: clean
 	sudo lb clean --purge --all
 	sudo rm -f *.iso *.img *.list *.packages *.buildlog *.md5sum

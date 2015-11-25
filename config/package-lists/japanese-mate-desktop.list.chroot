@@ -3,3 +3,9 @@ task-mate-desktop
 task-japanese-desktop
 task-laptop
 libreoffice-gtk3
+xdg-user-dirs-gtk
+lsb-core
+lsb-desktop
+fonts-vlgothic
+fonts-migmix
+ttf-mscorefonts-installer

@@ -7,3 +7,7 @@ coq
 plotutils
 gnuplot5
 macaulay2
+wxmaxima
+maxima-emacs
+maxima-share
+racket

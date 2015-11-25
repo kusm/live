@@ -5,3 +5,7 @@ openssh-blacklist
 openssh-blacklist-extra
 nfs-common
 rpcbind
+accountsservice
+dnsutils
+mlocate
+finger

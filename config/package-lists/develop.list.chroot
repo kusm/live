@@ -3,6 +3,13 @@ build-essential
 packaging-dev
 mpi-default-bin
 mpi-default-dev
+libboost-all-dev
+gcc-multilib
+g++-multilib
+gfortran-multilib
+libc6-dev
+libc6-dev-i386
+libc6-dev-x32
 # VCS
 git
 git-svn
@@ -14,6 +21,7 @@ subversion
 subversion-tools
 mercurial
 corkscrew
+netcat-traditional
 patch
 stow
 # terminal utility
@@ -22,6 +30,12 @@ screen
 # ruby
 ruby-full
 ruby-dev
+# java
+openjdk-7-jre
+openjdk-7-jre-headless
+openjdk-7-jdk
+# graphviz
+graphviz
 # shell
 zsh
 tcsh

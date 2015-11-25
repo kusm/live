@@ -1,1 +1,8 @@
+# sound
 vlc
+pavucontrol
+# printing
+task-print-server
+# image
+graphicsmagick-imagemagick-compat
+

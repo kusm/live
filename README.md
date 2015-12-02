@@ -11,15 +11,14 @@ Copyright(c) 2015: Youhei SASAKI <uwabami@math.kyoto-u.ac.jp>
   2. DVD の差分を USB メモリに保存する
   3. よくある質問
 * Debian Live のカスタマイズ
-
+  
 
 Debian Live について
 --------------------
 
-この DVD/USB は，Debian Live Project の live-build (=> 4.0~) を用いて制
-作されました．Debian GNU/Linux 8.x (Jessie)ベースで作られており，京都大
-学数学教室で設置している Linux 端末の環境を気軽に試せるようになっていま
-す(幾つかのソフトウェア，例えば Maple や Mathematica は使えませんが)．
+この DVD/USB は，Debian Live Project の live-build (=> 4.0~) を用いて制作されました．
+Debian GNU/Linux 8.x (Jessie)ベースで作られており，京都大学数学教室で設置している Linux 端末の環境を気軽に試せるようになっています
+(幾つかのソフトウェア，例えば Maple や Mathematica は使えませんが)．
 
 Live DVD/USB として使う
 -----------------------
@@ -96,3 +95,20 @@ http://wiki.debian.org/DebianLive
 
 Debian Live Manual (英語)
 http://live.debian.org/live-manual/html/
+
+どんな環境なの?
+===============
+
+`config/package-lists/' にあるファイルに書かれているパッケージ(およびこれらの依存パッケージ)が導入されています．
+簡単に言えば「日本語MATE」デスクトップ環境に，TeX と数学関連ソフトウェア(R, GeoGebra, Coq, maxima, macaulay2 etc.) を追加した環境です．
+数学関連のソフトウェアはもっと増やしたいので，是非リクエストを下さい．
+
+MathLibre という，もっと有名で完成度高いのあるのに，なんで新しい環境作っているの?
+=================================================================================
+
+端的に言えば，「Desktop 環境が違うから」です．実の所，それ以外には理由が無いかもしれません(ですけれど，ホラ，環境変わると嫌な人って多いですよね)．配布用に「DVD に収める」必要が無いので，サイズ制限に関しては特に何も考えていません．
+
+デフォルト設定からの点
+======================
+
+...to be written ...

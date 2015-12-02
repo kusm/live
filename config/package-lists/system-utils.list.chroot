@@ -8,4 +8,6 @@ rpcbind
 accountsservice
 dnsutils
 mlocate
+dlocate
 finger
+ethtool
